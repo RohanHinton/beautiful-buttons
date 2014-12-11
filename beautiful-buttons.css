@@ -1,0 +1,49 @@
+/* #00A06B */
+
+html{
+	font-family: 'Open Sans', sans-serif;
+	font-size:62.5%;
+	margin:0;
+	color:#fff;
+}
+
+p{
+	font-size:1.8rem;
+	line-height:1.5;
+	letter-spacing:0.1px;
+	font-weight:400;
+	margin:0 auto;
+	max-width:800px;
+	padding-bottom:24px;
+}
+
+#u-fkn-x{
+	background:#48c8e5;
+	border:0;
+	box-shadow: 1px 0px #3a587f, 0px 1px #4171ae,
+              2px 1px #3a587f, 1px 2px #4171ae,
+              3px 2px #3a587f, 2px 3px #4171ae,
+              4px 3px #3a587f, 3px 4px #4171ae,
+              5px 4px #3a587f, 4px 5px #4171ae,
+              6px 5px #3a587f, 5px 6px #4171ae;
+}
+	#u-fkn-x:hover{
+		transform: translate(1px, 1px);
+		box-shadow: 1px 0px #3a587f, 0px 1px #4171ae,
+	              2px 1px #3a587f, 1px 2px #4171ae,
+	              3px 2px #3a587f, 2px 3px #4171ae,
+	              4px 3px #3a587f, 3px 4px #4171ae,
+	              5px 4px #3a587f, 4px 5px #4171ae;
+	}
+	#u-fkn-x:active{
+		transform: translate(4px, 4px);
+	    box-shadow: 1px 0px #3a587f, 0px 1px #4171ae,
+    	          2px 1px #3a587f, 1px 2px #4171ae;
+	}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
