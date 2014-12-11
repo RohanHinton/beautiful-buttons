@@ -7,14 +7,11 @@ html{
 	color:#fff;
 }
 
-p{
-	font-size:1.8rem;
-	line-height:1.5;
-	letter-spacing:0.1px;
-	font-weight:400;
-	margin:0 auto;
-	max-width:800px;
-	padding-bottom:24px;
+button{
+	font-size:2rem;
+	line-height:1.25;
+	color:#ffffff;
+	padding:24px;
 }
 
 #u-fkn-x{
